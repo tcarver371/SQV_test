@@ -18,8 +18,8 @@ header{
 }
 .container{
 	border: 1px solid black;
-	max-width: 75%;
-	margin-left:25%;
+	max-width: 77%;
+	margin-left:23%;
 	background-color: rgb(247, 250, 237);
 	
 }
@@ -27,7 +27,7 @@ aside{
 	float: left;
 	max-width: 25%;
 	border: 1px solid black;
-	padding-bottom: 7.9%;
+	padding-bottom: 7.5%;
 	background-color: rgb(247, 250, 237);
 }
 aside img{
