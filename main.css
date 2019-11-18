@@ -1,0 +1,48 @@
+nav li{
+	margin: 1em;
+}
+
+nav ul li a{
+	margin-right: 5em;
+}
+body{
+	text-align: center;
+	border: 2px solid black;
+	max-width: 60%;
+	margin-left: 20%;
+}
+header{
+	background-color: rgb(187, 201, 139);
+
+	padding-bottom: 2em;
+}
+.container{
+	border: 1px solid black;
+	max-width: 77%;
+	margin-left:23%;
+	background-color: rgb(247, 250, 237);
+	
+}
+aside{
+	float: left;
+	max-width: 25%;
+	border: 1px solid black;
+	padding-bottom: 6%;
+	background-color: rgb(247, 250, 237);
+}
+aside img{
+	padding-bottom: 2em;
+	width: 40%;
+	height: 40%;
+}
+footer{
+	background-color: black;
+	padding-bottom: 1em;
+	color: white;
+}
+#image_list{
+	margin-left: 25%;
+}
+.images_swaps_container{
+	background-color: rgb(247, 250, 237);
+}
