@@ -5,69 +5,77 @@
 	<meta name="generator" content="Hugo 0.59.1" />
 	<meta charset="utf-8">
 	<title>San Joaquin Valley Town Hall</title>
-	<link rel="shortcut icon" href="../assets/images/favicon.ico">
-    <link rel="stylesheet" href="../assets/css/normalize.css">
-	<link rel="stylesheet" href="../assets/css/main.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel = "stylesheet" href = "assets/css/main.css">
 </head>
 
 <body>
-	<header>
-		<img src="../assets/images/town_hall_logo.gif" alt="Town Hall logo" height="80">
+       
+	<header class = "font-weight-bold">
+		<img src="assets/images/town_hall_logo.gif" alt="Town Hall logo" height="80">
 		<h2>San Joaquin Valley Town Hall</h2>
-		<h3>Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h3>
+		<h3>Celebrating our 75<sup>th</sup> Year</h3>
 	</header>
-	<nav id="nav_menu">
-    	<ul>
-       		<li><a href="../index.html">Home</a></li>
-       		<li><a href="../assets/html/image_swaps.html">Speakers</a></li>
-       		<li><a href="#">Luncheons</a></li>
-       		<li><a href="#">Tickets</a></li>
-       		<li><a href="#"> About Us</a>
-           		<ul>
-               		<li><a href="#">Our History</a></li>
-               		<li><a href="#">Board of Directors</a></li>
-               		<li><a href="#">Past Speakers</a></li>
-               		<li><a href="#">Contact Information</a></li>
-           		</ul>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+       		<li class = "nav-item"><a class="nav-link" href="index.html">Home</a></li>
+       		<li class = "nav-item"><a class="nav-link" href="assets/html/image_swaps.html">Speakers</a></li>
+       		<li class = "nav-item"><a class="nav-link" href="#">Luncheons</a></li>
+       		<li class = "nav-item"><a class="nav-link" href="#">Tickets</a></li>
+       		<li class = "nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id = "navbardrop" data-toggle= "dropdown"> About Us</a>
+                   
+                <div class = "dropdown-menu">
+               		<a class="dropdown-item" href="#">Our History</a>
+               		<a class="dropdown-item" href="#">Board of Directors</a>
+               		<a class="dropdown-item" href="#">Past Speakers</a>
+               		<a class="dropdown-item" href="#">Contact Information</a>
+                </div>
        		</li>
     	</ul>
     </nav>
+    <aside>
+            <h1> Speakers</h1>
+            <h3>October<br>Jeffrey Toobin</h3>
+            <img src="assets/images/toobin75.jpg" alt="Jeffrey Toobin photo">
+            <h3>November<br>Andrew Ross Sorkin</h3>
+            <img src="assets/images/sorkin75.jpg" alt="Andrew Ross Sorkin photo">
+            <h3>January<br>Amy Chua</h3>
+            <img src="assets/images/chua75.jpg" alt="Amy Chua photo">
+            <h3>February<br>Scott Sampson</h3>
+            <img src="assets/images/sampson75.jpg" alt="Scott Sampson">
+        </aside>
     <main>
+        <div class = "container">
     	<section>
             <h2>Our Mission</h2>
             <p>San Joaquin Valley Town Hall is a non-profit organization that is run by an all-volunteer board of directors. Our mission is to bring nationally and internationally renowned, thought-provoking speakers who inform, educate, and entertain our audience! As one or our members told us:</p>
             <blockquote>&ldquo;Each year I give a ticket package to each of our family members. I think of it as the gift of knowledge...and that is priceless.&rdquo;</blockquote>
+            <hr>
             <h1>Speaker of the Month</h1>
             <article>
                 <h2>Fossil Threads in the Web of Life</h2>
-                <img src="../assets/images/sampson_dinosaur.jpg" alt="Scott Sampson with Dinosaur">
+                <img src="assets/images/sampson_dinosaur.jpg" alt="Scott Sampson with Dinosaur">
                 <h3>February<br>Scott Sampson</h3>
-                <p>What's 75 million years old and brand spanking new? A teenage Utahceratops! Come to the Saroyan, armed with your best dinosaur roar, when Scott Sampson, Research Curator at the Utah Museum of Natural History, steps to the podium. Sampson's research has focused on the ecology and evolution of late Cretaceous dinosaurs and he has conducted fieldwork in a number of countries in Africa.</p>
-                <p><a href="../assets/html/sampson.html"><b>Read more.</b></a>&nbsp;
+                <p class = "text-info font-italic font-weight-bold">What's 75 million years old and brand spanking new? A teenage Utahceratops! Come to the Saroyan, armed with your best dinosaur roar, when Scott Sampson, Research Curator at the Utah Museum of Natural History, steps to the podium. Sampson's research has focused on the ecology and evolution of late Cretaceous dinosaurs and he has conducted fieldwork in a number of countries in Africa.</p>
                    
                 </p>
             </article>
+            <hr>
             <h2>Our Ticket Packages</h2>
-            <ul>
-                <li>Season Package: $95</li>
-                <li>Patron Package: $200</li>
-                <li>Single Speaker: $25</li>
+            <ul class = "list-group">
+                <li class = "list-group-item text-primary list-group-item-info font-weight-bold" >Season Package: $95</li>
+                <li class = "list-group-item text-primary list-group-item-info font-weight-bold" >Patron Package: $200</li>
+                <li class = "list-group-item text-primary list-group-item-info font-weight-bold">Single Speaker: $25</li>
             </ul>
         </section>
-        <aside>
-            <h2 id="speakers"> Speakers</h2>
-            <h3>October<br><a href="#">Jeffrey Toobin</a></h3>
-            <img src="../assets/images/toobin75.jpg" alt="Jeffrey Toobin photo">
-            <h3>November<br><a href="#">Andrew Ross Sorkin</a></h3>
-            <img src="../assets/images/sorkin75.jpg" alt="Andrew Ross Sorkin photo">
-            <h3>January<br><a href="#">Amy Chua</a></h3>
-            <img src="../assets/images/chua75.jpg" alt="Amy Chua photo">
-            <h3>February<br><a href="#">Scott Sampson</a></h3>
-            <img src="../assets/images/sampson75.jpg" alt="Scott Sampson">
-        </aside>
+        </div>
+        
 	</main>    
 	<footer>
-		<p>&copy; 2018, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
-	</footer>
+            <p>&copy; 2018, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+        </footer>
 </body>
+
+
 </html>
