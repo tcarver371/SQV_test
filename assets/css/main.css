@@ -40,4 +40,9 @@ footer{
 	padding-bottom: 1em;
 	color: white;
 }
-
+#image_list{
+	margin-left: 25%;
+}
+.images_swaps_container{
+	background-color: rgb(247, 250, 237);
+}
